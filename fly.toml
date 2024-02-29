@@ -1,6 +1,6 @@
-# fly.toml file generated for compute-speckle on 2023-02-22T16:52:23Z
+# fly.toml file generated for dawid-2024-macad-speckle-compute on 2023-02-22T16:52:23Z
 
-app = 'compute-speckle'
+app = 'dawid-2024-macad-speckle-compute'
 kill_signal = "SIGUSR1"
 kill_timeout = 300
 processes = []

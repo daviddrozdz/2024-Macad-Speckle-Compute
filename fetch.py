@@ -7,7 +7,11 @@ def send_to_compute():
     #Credentials
     compute_rhino3d.Util.url = "http://3.78.144.62/"
     compute_rhino3d.Util.apiKey = "SpeckleCompute02"
-    send_to_compute_stream = "https://macad.speckle.xyz/streams/6c652abd66"
+
+    # Change the stream ID to the one you want to send to
+    send_to_compute_stream = "https://macad.speckle.xyz/streams/b91897b29e"
+
+    # Change the path to the GH definition you want to send
     gh_definition = "example.ghx"
 
     gh_data = open(gh_definition, mode="r", encoding="utf-8-sig").read()
